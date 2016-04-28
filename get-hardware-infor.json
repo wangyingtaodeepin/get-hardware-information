@@ -4,9 +4,9 @@
             "command": "deploy_linaro_kernel",
             "parameters": {
                 "bootloadertype": "ipxe",
-                "kernel": "http://lava.deepin.io/tftpboot/vmlinuz",
-                "nfsrootfs": "http://lava.deepin.io/tftpboot/deepin.tar.gz",
-                "ramdisk": "http://lava.deepin.io/tftpboot/initrd.img",
+                "kernel": "https://validation.deepin.io/tftpboot/vmlinuz",
+                "nfsrootfs": "https://ci.deepin.io/job/rr-builder-rootfs/28//artifact/rootfs.tar.gz",
+                "ramdisk": "https://validation.deepin.io/tftpboot/initrd.img",
                 "target_type": "deepin"
             }
         },
@@ -28,7 +28,7 @@
         {
             "command": "submit_results",
             "parameters": {
-                "server": "http://lava.deepin.io/RPC2/",
+                "server": "http://validation.deepin.io/RPC2/",
                 "stream": "/anonymous/network/"
             }
         }
