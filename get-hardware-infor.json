@@ -19,7 +19,7 @@
                 "testdef_repos": [
                     {
                         "git-repo": "https://github.com/wangyingtaodeepin/get-hardware-information.git",
-                        "testdef": "get-hardware-information.yaml"
+                        "testdef": "get-hardware-infor.yaml"
                     }
                 ],
                 "timeout": 900
