@@ -28,7 +28,7 @@
         {
             "command": "submit_results",
             "parameters": {
-                "server": "http://validation.deepin.io/RPC2/",
+                "server": "https://validation.deepin.io/RPC2/",
                 "stream": "/anonymous/network/"
             }
         }
