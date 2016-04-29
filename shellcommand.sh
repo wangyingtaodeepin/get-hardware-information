@@ -1,4 +1,4 @@
 #!/bin/bash
 
-#dmidecode |grep -A 8 "System Information"
+dmidecode | grep -A 8 "System Information"
 lspci
