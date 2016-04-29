@@ -11,6 +11,10 @@ metadata:
     environment:
         - lava-test-shell
 
+install:
+    deps:
+        - pciutils
+
 run:
     steps:
         - ./shellcommand.sh
