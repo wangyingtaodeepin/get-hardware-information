@@ -20,5 +20,7 @@ run:
     steps:
         - ./shellcommand.sh
         - touch wangyingtao.txt
-        - echo 'aaaaaaaa' > wangyingtao.txt
+        - echo '20437 Fail' > wangyingtao.txt
+        - echo '24040 Fail' >> wangyingtao.txt
+        - echo '24042 Pass' >> wangyingtao.txt
         - lava-test-run-attach wangyingtao.txt text/plain
