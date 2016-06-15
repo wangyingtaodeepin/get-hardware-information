@@ -19,3 +19,6 @@ install:
 run:
     steps:
         - ./shellcommand.sh
+        - touch wangyingtao.txt
+        - echo 'aaaaaaaa' > wangyingtao.txt
+        - lava-test-run-attach wangyingtao.txt text/plain
